@@ -42,6 +42,7 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const navJ = document.querySelectorAll('a');
+navJ.setAttribute('href', siteContent['nav']['nav-item-1'])
 
 const cat = document.querySelector('.cta');
 
