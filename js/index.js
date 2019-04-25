@@ -42,4 +42,13 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const navJ = document.querySelectorAll('a');
-console.log(navJ, 'Nav')
+
+const cat = document.querySelector('.cta');
+
+const catTalk = document.querySelectorAll('p');
+
+const hotFour = document.querySelectorAll('h4');
+
+const endThis = document.querySelectorAll('contact');
+
+const putAFoot = document.querySelector('.footer')
