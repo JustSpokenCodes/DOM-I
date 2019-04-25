@@ -41,21 +41,21 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-const navJ = document.createElement('nav');
-navJ[0].textContent = "Services",
-navJ[1].textContent = "Product",
-navJ[2].textContent = "Vision",
-navJ[3].textContent = "Features",
-navJ[4].textContent = "About",
-navJ[5].textContent = "Contact"
+const navJ = document.querySelectorAll('a');
+navJ[0].textContent = 'Services';
+navJ[1].textContent = 'Product';
+navJ[2].textContent = 'Vision';
+navJ[3].textContent = 'Features';
+navJ[4].textContent = 'About';
+navJ[5].textContent = 'Contact';
 
+const cat = document.querySelector('h1');
+cat.innerHTML = "DOM Is Awesome";
 
-//const cat = document.querySelector('.cta');
+const catTalk = document.querySelectorAll('p');
 
-//const catTalk = document.querySelectorAll('p');
+const hotFour = document.querySelectorAll('h4');
 
-//const hotFour = document.querySelectorAll('h4');
+const endThis = document.querySelectorAll('contact');
 
-//const endThis = document.querySelectorAll('contact');
-
-//const putAFoot = document.querySelector('.footer')
+const putAFoot = document.querySelector('.footer')
