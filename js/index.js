@@ -52,10 +52,10 @@ navJ[5].textContent = 'Contact';
 const cat = document.querySelector('h1');
 cat.innerHTML = "DOM Is Awesome";
 
-const catTalk = document.querySelectorAll('p');
+const btn = document.querySelector('button');
+btn.innerHTML = "Get Started";
 
-const hotFour = document.querySelectorAll('h4');
+const snippet = document.querySelector('cta-img');
+snippet.setAttribute('src', siteContent['cta']['img-src']
+)
 
-const endThis = document.querySelectorAll('contact');
-
-const putAFoot = document.querySelector('.footer')
