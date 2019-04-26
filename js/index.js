@@ -50,7 +50,7 @@ navJ[4].textContent = 'About';
 navJ[5].textContent = 'Contact';
 
 const cat = document.querySelector('h1');
-cat.innerHTML = "DOM Is Awesome";
+cat.textContent = "DOM Is Awesome";
 
 const btn = document.querySelector('button');
 btn.innerHTML = "Get Started";
@@ -64,5 +64,4 @@ const allTheH = ['Features', 'About', 'Services', 'Product', 'Vision']
 allTheH.forEach(allTheH => {
   let element = document.createElement('h4');
   element.textContent = allTheH;
-
 })
