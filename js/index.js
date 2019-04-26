@@ -59,3 +59,10 @@ const snippet = document.querySelector('cta-img');
 snippet.setAttribute('src', siteContent['cta']['img-src']
 )
 
+const allTheH = ['Features', 'About', 'Services', 'Product', 'Vision']
+
+allTheH.forEach(allTheH => {
+  let element = document.createElement('h4');
+  element.textContent = allTheH;
+
+})
